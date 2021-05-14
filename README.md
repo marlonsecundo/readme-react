@@ -45,15 +45,19 @@ commands to running the project
 
 # 👨‍💻️ Development Team Guidelines
 
-- ## Make the code implementation easier for a new member to understand, if not possible, leave a comment explaining
-
-<br/>
-
 - ## Clean Code
 
 <br/>
 
+- ## Make the code implementation easier for a new member to understand, if not possible, leave a comment explaining
+
+<br/>
+
 - ## Modularize reutilizables components, dont repeat yourself
+
+<br/>
+
+- ## Separe the logic application code from the react view code, logic application are put in services.
 
 <br/>
 <br/>
@@ -69,7 +73,7 @@ commands to running the project
 home-screen.tsx
 ```
 
-- All services are classes, and named with .service in the end of file name
+- All services are classes, and named with **.service** in the end of file name
 
 ```ts
 // example
@@ -94,14 +98,14 @@ class WsClient {
 export default new WsClient();
 ```
 
-- Export compound names are separated with **PascalCase**
+- Export compound names are written with **PascalCase**
 
 ```ts
 // example
 export default SplashScreen;
 ```
 
-- **Enums** are named with the letter E in the beginning
+- **Enums** are named with the letter E in the beginning, and defined in the **enums.ts** file.
 
 ```ts
 // example
