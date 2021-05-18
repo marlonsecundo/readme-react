@@ -23,6 +23,7 @@
 - of
 - programs
 - or resources
+- needed to be
 - installed
 - on the dev system
 
@@ -138,6 +139,7 @@ export interface IStore {
     - **components/** -> components **only** that remains in that especific page
 - **services/** -> the application logic stays here, dont code application logic inside of views.
 - **styles/** -> styles variables
+- **store/** -> state managment
 
 <br/>
 <br/>
@@ -152,7 +154,9 @@ export interface IStore {
 <br/>
 <br/>
 
-# 🔘 UI Components
+# 🔘 Design and UI Components
+
+_Project Design UI Link_
 
 **Example**
 
@@ -161,8 +165,6 @@ This project use the RNUI, a components library to create UI and layout with a d
 See more in:
 
 https://wix.github.io/react-native-ui-lib/
-
-_Project Design UI Link_
 
 <br/>
 <br/>
@@ -210,7 +212,7 @@ Must be one of the following:
 **Example:**
 
 ```sh
-git commit -m "feat: sigaa login form implemented"
+git commit -m "feat: sigaa login form"
 ```
 
 <br/>
