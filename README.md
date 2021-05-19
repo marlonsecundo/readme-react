@@ -113,7 +113,7 @@ export default SplashScreen;
 export enum EResultStatus {
   ERROR,
   DONE,
-  EMPTT,
+  EMPTY,
   LOADING,
 }
 ```
@@ -179,7 +179,7 @@ Example:
 // routes.tsx
 
 import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
+
 // Root import
 import SplashScreen from "src/pages/splash-screen";
 import StartScreen from "src/pages/start-screen";
