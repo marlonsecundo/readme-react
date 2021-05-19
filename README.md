@@ -54,11 +54,11 @@ commands to running the project
 
 <br/>
 
-- ## Modularize reutilizables components, dont repeat yourself
+- ## Modularize reutilizables components, don't repeat yourself
 
 <br/>
 
-- ## Separe the logic application code from the react view code, logic application are put in services.
+- ## Separe the logic application code from the react view code, logic applications are put in services.
 
 <br/>
 <br/>
@@ -137,7 +137,7 @@ export interface IStore {
 - **pages/** -> a view/screen with a group of components/
   - example-screen
     - **components/** -> components **only** that remains in that especific page
-- **services/** -> the application logic stays here, dont code application logic inside of views.
+- **services/** -> the application logic stays here, don't code application logic inside of views.
 - **styles/** -> styles variables
 - **store/** -> state managment
 
@@ -160,7 +160,7 @@ _Project Design UI Link_
 
 **Example**
 
-This project use the RNUI, a components library to create UI and layout with a design system.
+This project uses the RNUI, a components library to create UI and layout with a design system.
 
 See more in:
 
@@ -171,7 +171,7 @@ https://wix.github.io/react-native-ui-lib/
 
 # ⌨️ Root Import
 
-To import componets from another locations aways use the **src** root import!
+To import components from another locations aways use the **src** root import!
 
 Example:
 
